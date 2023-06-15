@@ -76,7 +76,7 @@ public class Estudiante {
                 identificacionEstudiante,
                 edadEstudiante);
         
-        return cadena;
+        return cadena;       
     }
     
 

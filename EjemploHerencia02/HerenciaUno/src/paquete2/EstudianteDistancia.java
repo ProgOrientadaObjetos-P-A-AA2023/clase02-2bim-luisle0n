@@ -5,6 +5,13 @@ public class EstudianteDistancia extends Estudiante{
     private int numeroAsignaturas;
     private double costoAsignatura;
     private double matriculaDistancia;
+
+    public EstudianteDistancia(int numA, double costA, double matrA, String n, String a, String iden, int ed) {
+        super(n, a, iden, ed);
+        numeroAsignaturas = numA;
+        costoAsignatura = costA;
+        matriculaDistancia = matrA;
+    }
     
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)

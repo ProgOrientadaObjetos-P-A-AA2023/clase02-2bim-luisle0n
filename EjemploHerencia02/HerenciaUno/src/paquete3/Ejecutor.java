@@ -22,8 +22,12 @@ public class Ejecutor {
         EstudianteDistancia estDistancia = new EstudianteDistancia(nombre, 
                 apellido, identificacion, edad);
         
-        System.out.println(estDistancia);
-                
+        System.out.println(estDistancia);// imprime el objeto estudiante distancia 
         
+        // crae un objeto de tipo estudiante presencial 
+        
+        EstudiantePresencial estPresencial = new EstudiantePresencial("Luis", "Leon", "19500", 20);
+        System.out.println(estPresencial);
+              
     }
 }

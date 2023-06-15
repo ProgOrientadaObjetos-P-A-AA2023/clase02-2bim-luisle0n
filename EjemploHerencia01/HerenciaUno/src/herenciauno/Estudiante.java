@@ -5,6 +5,7 @@ public class Estudiante {
     // 1.  Declarar
     // se declaran datos o atributos con visibilidad protegido
     // # nombresEstudiante: Cadena
+    // 
     protected String nombresEstudiante;
     // # apellidosEstudiante: Cadena
     protected String apellidosEstudiante;

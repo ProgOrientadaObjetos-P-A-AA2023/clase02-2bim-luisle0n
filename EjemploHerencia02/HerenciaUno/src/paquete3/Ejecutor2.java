@@ -25,7 +25,7 @@ public class Ejecutor2 {
         estDistancia.establecerCostoAsignatura(50.5);
         estDistancia.establecerNumeroAsginaturas(5);
         estDistancia.calcularMatriculaDistancia();
-        
+        // llama a la super calse y despues agrega los atribotos del estudiante distancia 
         String cadenaFinal = String.format("%s", estDistancia);
         cadenaFinal = String.format("%s\n"
                 + "Costo Asignatura: %.2f\n"
