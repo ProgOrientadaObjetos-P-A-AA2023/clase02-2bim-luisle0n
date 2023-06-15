@@ -1,12 +1,13 @@
 
 package paquete9;
 
-public class EstudianteDistancia extends Estudiante{
-    
+public class EstudianteDistancia extends Estudiante{// sub calse estudiante 
+    // parametros
     int numeroAsignaturas;
     double costoAsignatura;
     double matriculaDistancia;
-    
+    // recinbe ivocamos al contructor de la super calse 
+    // 
     public EstudianteDistancia(String n, String ap, String iden, int e,
             int numAsg, double costoAsg){
         super(n, ap, iden, e);

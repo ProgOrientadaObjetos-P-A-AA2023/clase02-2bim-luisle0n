@@ -42,7 +42,7 @@ public class Ejecutor2 {
                 entrada.nextLine();
         }
         for (int i = 0; i < 4; i++) {
-            System.out.println( "Estudiante " +(i+1)+ "\n "+ estudiantePresencials.get(i));
+            System.out.println("Estudiante " +(i+1)+ "\n "+ estudiantePresencials.get(i));
         }
 
     }
